@@ -1,0 +1,4 @@
+********************  25/01/20 *****************
+(5) samples are located in "./assets/samples". In order to trigger them, players have to play together to increase their shared score. If a player dies, the shared score is reset. There are 5 score steps (defined in the sample-controller constructor). When reaching a score step, the playing sample is stopped and the next sample is played. Samples are looped. It is mandatory that there are as much samples to be played than score steps in the Array object.
+
+To be done : wait for the end of the previous sample before starting the next one (see Audio object documentation), create the ultimate banger ! Try with multiple players
